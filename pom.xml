@@ -53,6 +53,14 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/ac4y-auto/*</url>
+        </repository>
+    </repositories>
+
     <distributionManagement>
         <repository>
             <id>github</id>
